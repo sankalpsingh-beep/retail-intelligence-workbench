@@ -77,3 +77,10 @@ Run frontend linting and create a production build from `frontend/`:
 npm run lint
 npm run build
 ```
+## Project Demonstration
+
+Watch the complete RetailIQ project walkthrough:
+
+[▶ Watch RetailIQ Demo Video](https://drive.google.com/file/d/13vUYRq9SxjPEa7EMFHauMWRIE-Gh_v9k/view?usp=drive_link)
+
+The video demonstrates the application's key features, including dataset upload, data profiling, cleaning, normalization, retail analytics, and the conversational query assistant.
