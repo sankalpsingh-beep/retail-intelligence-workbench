@@ -1,0 +1,65 @@
+
+{
+  "cases": [
+    {
+      "id": "TC001",
+      "question": "How many products are there?",
+      "expected_operation": "count_products",
+      "expected_result": {
+        "product_count": 3
+      }
+    },
+    {
+      "id": "TC002",
+      "question": "What is the average price?",
+      "expected_operation": "average_price",
+      "expected_result": {
+        "average_price": 27666.67
+      }
+    },
+    {
+      "id": "TC003",
+      "question": "What is the total stock available?",
+      "expected_operation": "total_stock",
+      "expected_result": {
+        "total_stock": 35
+      }
+    },
+    {
+      "id": "TC004",
+      "question": "Show me the category breakdown",
+      "expected_operation": "category_summary",
+      "expected_result": [
+        {
+          "category": "Electronics",
+          "product_count": 2
+        },
+        {
+          "category": "Footwear",
+          "product_count": 1
+        }
+      ]
+    },
+    {
+      "id": "TC005",
+      "question": "Show me the top 2 products by stock",
+      "expected_operation": "top_products_by_stock",
+      "expected_result": [
+        {
+          "product": "Shoes",
+          "stock": 25
+        },
+        {
+          "product": "Laptop",
+          "stock": 10
+        }
+      ]
+    },
+    {
+      "id": "TC006",
+      "question": "What will my sales be next year?",
+      "expected_operation": "unsupported",
+      "expected_result": null
+    }
+  ]
+}

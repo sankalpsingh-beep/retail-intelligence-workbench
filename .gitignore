@@ -1,0 +1,32 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+venv/
+.venv/
+.env
+
+# Generated backend artifacts
+backend/artifacts/
+backend/evaluation_output/
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Production builds
+frontend/dist/
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Temporary uploaded test datasets
+backend/datasets/*_original.csv
+backend/datasets/normalization_test.csv
+
+# Generated evaluation results
+backend/results.json
